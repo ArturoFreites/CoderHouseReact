@@ -1,4 +1,4 @@
-import './scss/App.scss';
+import './Components/scss/App.scss';
 import React from 'react';
 
 import Header from './Components/Header.js';

@@ -1,5 +1,5 @@
-
 import { Container, Nav, Navbar} from "react-bootstrap"
+import './scss/bootstrap.scss';
 
 function NavBar() {
 
@@ -9,8 +9,7 @@ function NavBar() {
             <Container>
                     <Navbar.Brand href="index.html">
                         <img
-                            src="https://www.greatplacetowork.com.ar/images/coderhouse-logo.png"
-                            width="200"
+                            src="https://logodownload.org/wp-content/uploads/2014/04/nike-logo-1.png"
                             className="align-top"
                             alt="React Bootstrap logo"
                         />
