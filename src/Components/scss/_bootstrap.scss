@@ -1,0 +1,19 @@
+.align-top{
+    padding: 8px;
+    width: 150px;
+}
+
+.bg-custom{
+    background-color: $color3;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4.5vh;
+    text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: $color5;
+}

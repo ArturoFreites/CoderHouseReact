@@ -1,15 +1,15 @@
 import { Container, Nav, Navbar} from "react-bootstrap"
-import './scss/bootstrap.scss';
+import logo from './logos/nike-blanco.webp'
 
 function NavBar() {
 
     return (
 
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar collapseOnSelect expand="lg" bg="custom" variant="dark">
             <Container>
                     <Navbar.Brand href="index.html">
                         <img
-                            src="https://logodownload.org/wp-content/uploads/2014/04/nike-logo-1.png"
+                            src={logo}
                             className="align-top"
                             alt="React Bootstrap logo"
                         />
@@ -17,7 +17,8 @@ function NavBar() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#features">Productos</Nav.Link>
+                        <Nav.Link href="#features">Inicio</Nav.Link>
+                        <Nav.Link href="#pricing">Productos</Nav.Link>
                         <Nav.Link href="#pricing">Nosotros</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
