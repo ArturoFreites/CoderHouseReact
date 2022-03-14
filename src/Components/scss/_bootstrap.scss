@@ -1,12 +1,33 @@
+
+//* NAV LOGO : START
 .align-top{
     padding: 8px;
     width: 150px;
 }
+//* NAV LOGO : END
 
+
+//* NAV BACKGROUND : START
 .bg-custom{
-    background-color: $color3;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
 }
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+//* NAV BACKGROUND : END
+
+//* NAV LINKS : START
 .navbar-dark .navbar-nav .nav-link {
     color: white;
     font-family: 'Bebas Neue', cursive;
@@ -17,7 +38,9 @@
 .navbar-dark .navbar-nav .nav-link:hover {
     color: $color5;
 }
+//* NAV LINKS : END
 
+//* NAV ICON-SHOP : START
 .icon-shop {
     color: $color1;
     font-size: 5vh;
@@ -28,3 +51,4 @@
 .icon-shop:hover {
     color: $color5
 }
+//* NAV ICON-SHOP : END

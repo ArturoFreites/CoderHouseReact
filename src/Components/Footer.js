@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap"
-import NavBar from './NavBar.js';
 import logo from './logos/nike-blanco.webp'
 
 function Footer() {

@@ -1,7 +1,11 @@
+//* FOOTER BACKGROUND : START
 .footerEdit {
     background-color: black;
 }
+//* FOOTER BACKGROUND : END
 
+
+//* FOOTER LOGO : START
 .footerLogo {
     display: flex;
     justify-content: center;
@@ -10,7 +14,10 @@
         width: 120px;
     }
 }
+//* FOOTER LOGO : END
 
+
+//* FOOTER TEXT : START
 .footerUbicacion {
     padding: 20px;
 
@@ -31,5 +38,6 @@
 }
 
 .footerTelefono {
-    @extend .footerUbicacion
+    @extend .footerUbicacion;
 }
+//* FOOTER TEXT : END

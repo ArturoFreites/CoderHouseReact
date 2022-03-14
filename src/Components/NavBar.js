@@ -2,6 +2,7 @@ import { Container, Nav, Navbar} from "react-bootstrap"
 import logo from './logos/nike-blanco.webp'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
+
 function NavBar() {
 
     return (
