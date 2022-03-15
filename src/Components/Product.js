@@ -43,7 +43,7 @@ function Product(props) {
                             <p className='number-product'>{contador}</p>
                             <Button variant="dark" size="sm" onClick={sumarClick}>+</Button>
                             <Button variant="danger" size="sm" onClick={resetearClick}><FontAwesomeIcon icon={faTrash} className="icon-shop" /></Button>
-                        </ButtonGroup>
+                        </ButtonGroup>   
                     </Card.Body>
                     <Button variant="outline-success">Agregar al carrito</Button>
                 </Card>
