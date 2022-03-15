@@ -22,10 +22,10 @@ function NavBar() {
                         <Nav.Link href="#features">Inicio</Nav.Link>
                         <Nav.Link href="#pricing">Productos</Nav.Link>
                         <Nav.Link href="#pricing">Nosotros</Nav.Link>
-                        <Nav.Link href="#pricing">
-                        <FontAwesomeIcon icon={faCartShopping} className="icon-shop" />
-                        </Nav.Link>
                     </Nav>
+                    <Nav.Link className="icon-shop-text" href="#pricing">
+                        <FontAwesomeIcon icon={faCartShopping} className="icon-shop" /> Carrito
+                        </Nav.Link>
                 </Navbar.Collapse>
             </Container>
         </Navbar>

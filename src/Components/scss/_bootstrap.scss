@@ -41,14 +41,33 @@
 //* NAV LINKS : END
 
 //* NAV ICON-SHOP : START
-.icon-shop {
-    color: $color1;
-    font-size: 5vh;
-    padding-left: 16em;
-    text-align: center;
+
+.icon-shop-text{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4.5vh;
+    .icon-shop {
+        color: $color1;
+        font-size: 5vh;
+    }
 }
 
-.icon-shop:hover {
+.icon-shop-text:hover {
     color: $color5
 }
+
+@media (max-width: 991px) {
+    .icon-shop-text {
+        text-align: center;
+    }
+    
+    .align-top{
+        padding: 8px;
+        width: 150px;
+        display: block;
+        margin: auto;
+    }
+}
 //* NAV ICON-SHOP : END
+
+
