@@ -39,9 +39,9 @@ function Product(props) {
                         </Card.Text>
                         <p className='number-product'>Cantidad</p>
                         <ButtonGroup aria-label="Basic example">
-                            <Button variant="outline-dark" size="sm" onClick={restarClick}>-</Button>
+                            <Button variant="dark" size="sm" onClick={restarClick}>-</Button>
                             <p className='number-product'>{contador}</p>
-                            <Button variant="outline-dark" size="sm" onClick={sumarClick}>+</Button>
+                            <Button variant="dark" size="sm" onClick={sumarClick}>+</Button>
                             <Button variant="danger" size="sm" onClick={resetearClick}><FontAwesomeIcon icon={faTrash} className="icon-shop" /></Button>
                         </ButtonGroup>
                     </Card.Body>
